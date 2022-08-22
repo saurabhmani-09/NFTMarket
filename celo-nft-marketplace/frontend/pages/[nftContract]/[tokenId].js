@@ -169,6 +169,7 @@ export default function NFTDetails() {
                 <a
                   href={`https://alfajores.celoscan.io/address/${listing.seller}`}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Seller:{" "}
                   {isOwner ? "You" : listing.seller.substring(0, 6) + "..."}
@@ -184,6 +185,7 @@ export default function NFTDetails() {
                   <a
                     href={`https://alfajores.celoscan.io/address/${listing.buyer}`}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     {listing.buyer}
                   </a>
