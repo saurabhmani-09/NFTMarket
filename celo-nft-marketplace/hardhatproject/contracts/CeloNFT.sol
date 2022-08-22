@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
 contract CeloNFT is ERC721 {
     constructor() ERC721("CeloNFT", "cNFT") {
-        // mint 5 NFTs to yourself
+        // mint 20 NFTs to yourself
         for (uint i = 0; i < 20; i++) {
             _mint(msg.sender, i);
         }
